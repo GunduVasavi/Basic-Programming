@@ -11,3 +11,11 @@ function isPrime(num) {
 console.log(isPrime(2));   // true
 console.log(isPrime(9));   // false
 console.log(isPrime(17));  // true
+// Function to check even or odd number
+function evenOdd(num) {
+  return num % 2 === 0;
+}
+
+// Test the function
+console.log(evenOdd(4));  // true
+console.log(evenOdd(7));  // false
